@@ -5,7 +5,7 @@ EXP:
 DATASET:
     NAME: cocostuff10k
     ROOT: /data/Laura
-    LABELS: ./data/datasets/cocostuff/labels.txt
+    LABELS: /content/drive/MyDrive/p[pc2/Deeplab_pytorch/code/data/datasets/cocostuff/labels.txt
     N_CLASSES: 182
     IGNORE_LABEL: 255
     SCALES: [0.5, 0.75, 1.0, 1.25, 1.5]

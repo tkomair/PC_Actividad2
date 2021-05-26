@@ -5,7 +5,7 @@ EXP:
 DATASET:
     NAME: vocaug
     ROOT: /media/kazuto1011/Extra/VOCdevkit
-    LABELS: ./data/datasets/voc12/labels.txt
+    LABELS: /content/drive/MyDrive/p[pc2/Deeplab_pytorch/code/data/datasets/voc12/labels.txt
     N_CLASSES: 21
     IGNORE_LABEL: 255
     SCALES: [0.5, 0.75, 1.0, 1.25, 1.5]
@@ -50,7 +50,7 @@ SOLVER:
     AVERAGE_LOSS: 20
 
 CRF:
-    ITER_MAX: 10
+    ITER_MAX: 100
     POS_W: 3
     POS_XY_STD: 1
     BI_W: 4
